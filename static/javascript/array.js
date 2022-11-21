@@ -54,9 +54,9 @@ const goods = [5000, 3000, 9000, 13000, 40000, 1000, 12000, 12500, 4000, 500]
 
 let sum = 0
 
-// for (let i = 0; i < goods.length; i++) {
-//     let sum = sum + goods[i]
-// }
+for (let i = 0; i < goods.length; i++) {
+    sum += goods[i]
+}
 
 for (const price of goods) {
     sum +=price
